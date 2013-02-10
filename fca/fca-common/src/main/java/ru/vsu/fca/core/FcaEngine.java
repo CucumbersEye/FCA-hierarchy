@@ -1,13 +1,13 @@
 package ru.vsu.fca.core;
 
 public class FcaEngine {
-	private FcaObjectSet classes;
+	private BasicFcaObjectSet classes;
 
-	public FcaObjectSet getClasses() {
+	public BasicFcaObjectSet getClasses() {
 		return classes;
 	}
 
-	public void setClasses(FcaObjectSet classes) {
+	public void setClasses(BasicFcaObjectSet classes) {
 		this.classes = classes;
 	}
 	
