@@ -6,8 +6,19 @@ package ru.vsu.fca.core;
  */
 public class FcaObject {
 	
+	/**
+	 *  имя объекта/название класса
+	 */
 	private String name;
+	/**
+	 * идентификатор объекта
+	 */
 	private int id;
+	/**
+	 * вектор свойств
+	 * 		1 - обладает свойством;
+	 * 		0 - не обладает.
+	 */
 	private int[] attributes;
 	
 	/**
